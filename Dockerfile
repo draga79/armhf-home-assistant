@@ -14,5 +14,4 @@ VOLUME /config
 CMD [ "python3", "-m", "homeassistant", "--config", "/config" ]
 
 # Install Home Assistant
-RUN pip3 install homeassistant==0.49
-
+RUN pip3 install homeassistant==0.59.2
