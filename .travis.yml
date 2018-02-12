@@ -9,7 +9,7 @@ script:
 # build image
 - docker build -t dragas/armhf-home-assistant .
 # test image
-- docker run dragas/armhf-home-assistant
+# - docker run dragas/armhf-home-assistant
 # push image
 - >
   if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
