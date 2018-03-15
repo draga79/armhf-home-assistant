@@ -14,4 +14,4 @@ VOLUME /config
 CMD [ "python3", "-m", "homeassistant", "--config", "/config" ]
 
 # Install Home Assistant
-RUN pip3 install homeassistant==0.65.2 ; rm -Rf /root/.cache/
+RUN pip3 install homeassistant==0.65.5 ; rm -Rf /root/.cache/
